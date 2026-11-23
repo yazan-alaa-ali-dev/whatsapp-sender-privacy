@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WhatsApp Sender – Privacy Policy</title>
+<meta name="description" content="Privacy Policy for the WhatsApp Sender Chrome extension.">
+<meta name="color-scheme" content="light dark">
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1f2328;
+    --muted: #59636e;
+    --border: #d1d9e0;
+    --code-bg: #f3f4f6;
+    --link: #0b6bcb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115;
+      --text: #e6e8eb;
+      --muted: #9aa3ad;
+      --border: #2d333b;
+      --code-bg: #1b1f26;
+      --link: #6cb6ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.7 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 20px 64px;
+  }
+  header { border-bottom: 1px solid var(--border); padding-bottom: 20px; margin-bottom: 8px; }
+  h1 { font-size: 2rem; line-height: 1.25; margin: 0 0 4px; }
+  .subtitle { font-size: 1.15rem; margin: 0 0 8px; color: var(--muted); }
+  .updated { font-size: 0.9rem; color: var(--muted); margin: 0; }
+  h2 { font-size: 1.25rem; line-height: 1.35; margin: 36px 0 8px; }
+  p, ul { margin: 0 0 14px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  code {
+    font: 0.88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    background: var(--code-bg);
+    padding: 1px 5px;
+    border-radius: 4px;
+    overflow-wrap: anywhere;
+  }
+  a { color: var(--link); }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+  @media (max-width: 480px) {
+    body { font-size: 16px; }
+    main { padding: 32px 16px 48px; }
+    h1 { font-size: 1.6rem; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>WhatsApp Sender</h1>
+    <p class="subtitle">Privacy Policy</p>
+    <p class="updated">Last updated: November 23, 2026</p>
+  </header>
+
+  <section>
+    <h2>About the extension</h2>
+    <p>WhatsApp Sender is a Chrome extension (Manifest V3) that sends WhatsApp text messages from the
+    browser toolbar using WhatsApp numbers you link with a QR code. You can create up to 5 profiles,
+    each with its own linked number.</p>
+    <p>This page explains what data the extension handles, where it goes, and what it does not do.</p>
+  </section>
+
+  <section>
+    <h2>Data the extension handles</h2>
+    <ul>
+      <li><strong>Account username and password:</strong> used only to sign in. The password is never stored.</li>
+      <li><strong>Session token:</strong> kept in the browser's extension storage to keep you signed in, and removed at logout.</li>
+      <li><strong>Profiles:</strong> profile name, linked phone number, and linked status, kept in the browser's extension storage on your device.</li>
+      <li><strong>Recipient phone number and message text:</strong> sent only when you press Send. They are not stored by the extension.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Where data goes</h2>
+    <p>Data is sent only to the messaging service at <code>https://whatsapp-proxy.whats24ai.com</code>,
+    to sign in, link a number by QR code, check the link status, and send messages.</p>
+  </section>
+
+  <section>
+    <h2>What the extension does not do</h2>
+    <ul>
+      <li>It does not read your WhatsApp chats or contacts, or your browsing history.</li>
+      <li>It does not use analytics, tracking, ads, or cookies.</li>
+      <li>It does not sell or share your data with third parties.</li>
+      <li>It does not use your data for any purpose other than sending your messages.</li>
+      <li>It does not run remote code.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Permissions</h2>
+    <ul>
+      <li><code>storage</code>: to keep your session and profiles.</li>
+      <li>Host access to <code>whatsapp-proxy.whats24ai.com</code> only.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Data retention and deletion</h2>
+    <p>Local data stays on your device until you log out (session) or uninstall the extension (everything).
+    To delete server-side account data, contact us using the address below.</p>
+  </section>
+
+  <section>
+    <h2>Children</h2>
+    <p>The extension is not directed at children under 13.</p>
+  </section>
+
+  <section>
+    <h2>Changes to this policy</h2>
+    <p>Updates are posted on this page with a new "Last updated" date.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Questions or deletion requests: <a href="mailto:CONTACT_EMAIL_HERE">CONTACT_EMAIL_HERE</a></p>
+  </section>
+
+  <footer>
+    <p>This extension is not affiliated with, endorsed by, or sponsored by WhatsApp or Meta.</p>
+  </footer>
+</main>
+</body>
+</html>
